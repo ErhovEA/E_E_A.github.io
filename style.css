@@ -63,4 +63,26 @@
 
   }
 
-  
+  .header {
+    background-image: url("https://github.com/ErhovEA/E_E_A.github.io/blob/main/img/01.jpg");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: cover;
+    background-color: black;
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .menu {
+    position: fixed;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+
+
+
