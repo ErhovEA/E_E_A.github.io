@@ -64,6 +64,15 @@
 
   }
 
+  .header_iner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .header {
     /*background-image: url("https://github.com/ErhovEA/E_E_A.github.io/blob/main/img/01.jpg");
     background-repeat: no-repeat;
