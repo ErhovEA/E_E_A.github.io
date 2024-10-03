@@ -53,6 +53,8 @@
     width: 100%;
 
   }
+  /*HEADER*/
+  
   .container {
     width: 100%;
     max-width: 1320px;
@@ -69,22 +71,32 @@
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
     justify-content: space-between;
     align-items: center;
   }
 
   .header {
-    /*background-image: url("https://github.com/ErhovEA/E_E_A.github.io/blob/main/img/01.jpg");
+    background-image: url("https://github.com/ErhovEA/E_E_A.github.io/blob/main/img/01.jpg");
     background-repeat: no-repeat;
     background-position: 0% 0%;
     background-size: cover;
-    background-color: black;
+    background-color: rgb(247, 244, 244);
     position: relative;
     padding-top: 0px;
     padding-bottom: 60px;
     margin-left: auto;
-    margin-right: auto;*/
+    margin-right: auto;
     border: solid;
+
+    z-index: 1;
+
+
+  }
+  .header_logo {
+    margin-left: 15px;
+    margin-top: 0px;
+    width: 150px;
 
   }
 
@@ -95,8 +107,19 @@
     border: solid;
   }
 
+  .menu_list {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+/*CONTENT*/
+
   .main {
     border: solid;
+    display: flex;
+    flex-wrap: wrap;
+
   }
 
 
