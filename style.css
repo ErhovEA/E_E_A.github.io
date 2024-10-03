@@ -45,9 +45,10 @@
   font-variation-settings:
     "wdth" 100;
   }*/
+
   body {
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
+    /*font-family: "Open Sans", sans-serif;*/
+    font-size: 16px;
     margin: 0 auto;
     width: 100%;
 
@@ -64,7 +65,7 @@
   }
 
   .header {
-    background-image: url("https://github.com/ErhovEA/E_E_A.github.io/blob/main/img/01.jpg");
+    /*background-image: url("https://github.com/ErhovEA/E_E_A.github.io/blob/main/img/01.jpg");
     background-repeat: no-repeat;
     background-position: 0% 0%;
     background-size: cover;
@@ -73,7 +74,8 @@
     padding-top: 0px;
     padding-bottom: 60px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
+    border: solid;
 
   }
 
@@ -81,7 +83,11 @@
     position: fixed;
     margin-top: 20px;
     margin-bottom: 20px;
-    
+    border: solid;
+  }
+
+  .main {
+    border: solid;
   }
 
 
