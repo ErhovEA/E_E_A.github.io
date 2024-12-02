@@ -20,5 +20,67 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+}
+
+.navbar-menu {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+
+
+}
+
+.navbar-menu li {
+  display: inline-block;
+
+}
+
+.navbar-menu li a {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  padding: 15px;
   
+
+}
+
+.navbar-menu li a:hover {
+  opacity: 0.5;
+
+}
+
+.navbar-wrap {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.callback {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #000;
+  background-color: rgb(223, 88, 9);
+  border-radius: 90px;
+  padding: 15px;
+  transition: all .1s ease-in-out;
+}
+
+.callback:hover {
+  /*opacity: 0.5;*/
+  transform: scale(1.05);
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 30px;
+  text-decoration: none;
+  color: blue;
+  margin-left: 50px;
+
+}
+
+.navbar-brand:hover {
+  color: rgb(17, 160, 12);
+  transition: all .1s ease-in-out;
+
 }
